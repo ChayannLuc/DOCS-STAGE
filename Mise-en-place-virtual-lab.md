@@ -92,6 +92,6 @@ Serveur SQL
 Serveur de fichiers
 
 Contrôleurs de domaine
----
-Résultat
+
+--- Résultat
 Vous disposez maintenant d’un Application Group prêt à l’emploi pour les tests SureBackup.
