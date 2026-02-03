@@ -1,4 +1,5 @@
-Mise en place d’un Virtual Lab
+# Mise en place d’un Virtual Lab
+
 Introduction
 Pour créer un Virtual Lab, on utilise la solution Veeam Backup & Replication.
 Le Virtual Lab permet d’exécuter des tests de restauration isolés, notamment pour SureBackup.
