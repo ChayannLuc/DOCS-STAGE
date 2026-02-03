@@ -4,20 +4,21 @@ Introduction
 Pour créer un Virtual Lab, on utilise la solution Veeam Backup & Replication.
 Le Virtual Lab permet d’exécuter des tests de restauration isolés, notamment pour SureBackup.
 
-1. Création du Virtual Lab
-Étape 1 — Accéder à la création
+### 1. Création du Virtual Lab
+
+## Étape 1 — Accéder à la création
 Dans Veeam, aller dans Backup Infrastructure
 
 Dans la section SureBackup, faire un clic droit sur Virtual Labs
 
 Cliquer sur Add Virtual Lab
 
-Étape 2 — Nommer le Virtual Lab
+## Étape 2 — Nommer le Virtual Lab
 Donner un nom explicite
 
 Cliquer sur Next
 
-Étape 3 — Sélectionner l’hôte ESXi
+## Étape 3 — Sélectionner l’hôte ESXi
 Cliquer sur Choose
 
 Sélectionner l’hôte ESXi sur lequel sera créé le Virtual Lab
