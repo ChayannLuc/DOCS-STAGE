@@ -14,41 +14,41 @@ Le Virtual Lab permet d’exécuter des tests de restauration isolés, notamment
 - Cliquer sur Add Virtual Lab
 
 ### Étape 2 — Nommer le Virtual Lab
-Donner un nom explicite
+- Donner un nom explicite
 
-Cliquer sur Next
+- Cliquer sur Next
 
 ### Étape 3 — Sélectionner l’hôte ESXi
-Cliquer sur Choose
+- Cliquer sur Choose
 
-Sélectionner l’hôte ESXi sur lequel sera créé le Virtual Lab
+- Sélectionner l’hôte ESXi sur lequel sera créé le Virtual Lab
 
 Exigences de l’hôte ESXi :
 
-L’hôte doit être situé dans le même datacenter que les réplicas des VMs
+- L’hôte doit être situé dans le même datacenter que les réplicas des VMs
 
-L’hôte doit disposer de ressources CPU et RAM suffisantes
+- L’hôte doit disposer de ressources CPU et RAM suffisantes
 
 ### Étape 4 — Base de données
-Ne rien renseigner
+- Ne rien renseigner
 
-Cliquer sur Next
+- Cliquer sur Next
 
 ### Étape 5 — Configuration du Proxy
-Cocher Use proxy appliance in this virtual lab
+- Cocher Use proxy appliance in this virtual lab
 
 Rôle du proxy :  
 Le proxy sert de passerelle entre le serveur de sauvegarde et les VMs du Virtual Lab.
 Sans proxy, Veeam ne fera qu’un test de présence des VMs, sans vérification approfondie.
 
 ### Étape 6 — Modifier les paramètres du Proxy
-Cliquer sur Edit pour modifier le nom ou le datastore
+- Cliquer sur Edit pour modifier le nom ou le datastore
 
-Sélectionner le réseau de production sur lequel le proxy sera créé
+- Sélectionner le réseau de production sur lequel le proxy sera créé
 
-Cliquer sur Configure
+- Cliquer sur Configure
 
-Choisir IPv4, IPv6 ou les deux
+- Choisir IPv4, IPv6 ou les deux
 
 Spécifier :
 
