@@ -52,16 +52,16 @@ Sans proxy, Veeam ne fera qu’un test de présence des VMs, sans vérification 
 
 Spécifier :
 
-L’adresse IP du proxy
+- L’adresse IP du proxy
 
-Le masque
+- Le masque
 
-La passerelle
+- La passerelle
 
-Le DNS
+- Le DNS
 
 ### Étape 7 — Mode de configuration
-Choisir Basic single host
+- Choisir Basic single host
 
 ### Étape 8 — Création
 Une fois validé, le Virtual Lab est créé sur l’hôte ESXi sélectionné.
@@ -71,27 +71,27 @@ Une fois le Virtual Lab en place, il faut créer un Application Group.
 Cet ensemble regroupe les VMs nécessaires au bon fonctionnement des tests SureBackup (DNS, DHCP, SQL, fichiers, etc.).
 
 ### Étape 1 — Création
-Clic droit → Add Application Group
+- Clic droit → Add Application Group
 
-Donner un nom explicite
+- Donner un nom explicite
 
 ### Étape 2 — Ajouter les VMs utilitaires
-Cliquer sur Add
+- Cliquer sur Add
 
-Choisir From Backup
+- Choisir From Backup
 
 ### Étape 3 — Sélectionner les VMs nécessaires
 Ajouter toutes les VMs indispensables au fonctionnement de l’infrastructure, par exemple :
 
-Serveur DNS
+- Serveur DNS
 
-Serveur DHCP
+- Serveur DHCP
 
-Serveur SQL
+- Serveur SQL
 
-Serveur de fichiers
+- Serveur de fichiers
 
-Contrôleurs de domaine
+- Contrôleurs de domaine
 
 ---
 
